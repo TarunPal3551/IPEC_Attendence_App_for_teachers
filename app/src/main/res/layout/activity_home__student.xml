@@ -1,0 +1,2480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity_Student">
+
+
+    <RelativeLayout
+        android:id="@+id/dayscollection"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@android:color/darker_gray">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/monday"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/tuesday"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/monday"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/wednesday"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/tuesday"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/thursday"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/wednesday"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/friday"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/thursday"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/saturday"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/friday"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/rel1">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_orange_light"
+                android:orientation="horizontal">
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/monlecture1"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/monlecture1subject1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/monlecture1status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/monlecture2"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/monlecture1"
+                    android:layout_toRightOf="@+id/monlecture1">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/monlecture2subject2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/monlecture2status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/monlecture3"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/monlecture2"
+                    android:layout_toRightOf="@+id/monlecture2">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/monlecture3subject3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/monlecture3status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/monlecture4"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/monlecture3"
+                    android:layout_toRightOf="@+id/monlecture3">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/monlecture4subject4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/monlecture4status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/monlecture5"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/monlecture4"
+                    android:layout_toRightOf="@+id/monlecture4">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/monlecture5subject5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/monlecture5status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/monlecture6"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/monlecture5"
+                    android:layout_toRightOf="@+id/monlecture5">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/monlecture6subject6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/monlecture6status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/monlecture7"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/monlecture6"
+                    android:layout_toRightOf="@+id/monlecture6">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/monlecture7subject7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/monlecture7status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/monlecture8"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/monlecture7"
+                    android:layout_toRightOf="@+id/monlecture7">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/monlecture8subject8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/monlecture8status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/tuelecture1"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/monlecture1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp" >
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/tuelecture1subject1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/tuelecture1status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/tuelecture2"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/monlecture2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/tuelecture1"
+                    android:layout_toRightOf="@+id/tuelecture1">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/tuelecture2subject2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/tuelecture2status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/tuelecture3"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/monlecture3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/tuelecture2"
+                    android:layout_toRightOf="@+id/tuelecture2">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/tuelecture3subject3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/tuelecture3status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/tuelecture4"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/monlecture4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/tuelecture3"
+                    android:layout_toRightOf="@+id/tuelecture3">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/tuelecture4subject4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/tuelecture4status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/tuelecture5"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/monlecture4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/tuelecture4"
+                    android:layout_toRightOf="@+id/tuelecture4">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/tuelecture5subject5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/tuelecture5status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/tuelecture6"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/monlecture5"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/tuelecture5"
+                    android:layout_toRightOf="@+id/tuelecture5">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/tuelecture6subject6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/tuelecture6status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/tuelecture7"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/monlecture7"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/tuelecture6"
+                    android:layout_toRightOf="@+id/tuelecture6">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/tuelecture7subject7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/tuelecture7status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/tuelecture8"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/monlecture8"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/tuelecture7"
+                    android:layout_toRightOf="@+id/tuelecture7">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/tuelecture8subject8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/tuelecture8status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/wedlecture1"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/tuelecture1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp" >
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/wedlecture1subject1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/wedlecture1status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/wedlecture2"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/tuelecture2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/wedlecture1"
+                    android:layout_toRightOf="@+id/wedlecture1">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/wedlecture2subject2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/wedlecture2status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/wedlecture3"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/tuelecture3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/wedlecture2"
+                    android:layout_toRightOf="@+id/wedlecture2">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/wedlecture3subject3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/wedlecture3status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/wedlecture4"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/tuelecture4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/wedlecture3"
+                    android:layout_toRightOf="@+id/wedlecture3">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/wedlecture4subject4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/wedlecture4status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/wedlecture5"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/tuelecture4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/wedlecture4"
+                    android:layout_toRightOf="@+id/wedlecture4">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/wedlecture5subject5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/wedlecture5status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/wedlecture6"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/tuelecture5"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/wedlecture5"
+                    android:layout_toRightOf="@+id/wedlecture5">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/wedlecture6subject6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/wedlecture6status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/wedlecture7"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/tuelecture7"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/wedlecture6"
+                    android:layout_toRightOf="@+id/wedlecture6">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/wedlecture7subject7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/wedlecture7status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/wedlecture8"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/tuelecture8"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/wedlecture7"
+                    android:layout_toRightOf="@+id/wedlecture7">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/wedlecture8subject8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/wedlecture8status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/thulecture1"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/wedlecture1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp" >
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/thulecture1subject1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/thulecture1status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/thulecture2"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/wedlecture2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/thulecture1"
+                    android:layout_toRightOf="@+id/thulecture1">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/thulecture2subject2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/thulecture2status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/thulecture3"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/wedlecture3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/thulecture2"
+                    android:layout_toRightOf="@+id/thulecture2">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/thulecture3subject3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/thulecture3status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/thulecture4"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/wedlecture4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/thulecture3"
+                    android:layout_toRightOf="@+id/thulecture3">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/thulecture4subject4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/thulecture4status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/thulecture5"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/wedlecture4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/thulecture4"
+                    android:layout_toRightOf="@+id/thulecture4">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/thulecture5subject5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/thulecture5status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/thulecture6"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/wedlecture5"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/thulecture5"
+                    android:layout_toRightOf="@+id/thulecture5">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/thulecture6subject6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/thulecture6status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/thulecture7"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/wedlecture7"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/thulecture6"
+                    android:layout_toRightOf="@+id/thulecture6">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/thulecture7subject7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/thulecture7status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/thulecture8"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/wedlecture8"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/thulecture7"
+                    android:layout_toRightOf="@+id/thulecture7">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/thulecture8subject8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/thulecture8status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/frilecture1"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/thulecture1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp" >
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/frilecture1subject1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/frilecture1status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/frilecture2"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/thulecture2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/frilecture1"
+                    android:layout_toRightOf="@+id/frilecture1">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/frilecture2subject2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/frilecture2status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/frilecture3"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/thulecture3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/frilecture2"
+                    android:layout_toRightOf="@+id/frilecture2">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/frilecture3subject3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/frilecture3status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/frilecture4"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/thulecture4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/thulecture3"
+                    android:layout_toRightOf="@+id/thulecture3">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/frilecture4subject4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/frilecture4status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/frilecture5"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/thulecture4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/frilecture4"
+                    android:layout_toRightOf="@+id/frilecture4">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/frilecture5subject5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/frilecture5status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/frilecture6"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/thulecture5"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/frilecture5"
+                    android:layout_toRightOf="@+id/frilecture5">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/frilecture6subject6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/frilecture6status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/frilecture7"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/thulecture7"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/frilecture6"
+                    android:layout_toRightOf="@+id/frilecture6">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/frilecture7subject7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/frilecture7status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/frilecture8"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/thulecture8"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/frilecture7"
+                    android:layout_toRightOf="@+id/frilecture7">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/frilecture8subject8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/frilecture8status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/satlecture1"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/frilecture1"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp" >
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/satlecture1subject1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/satlecture1status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/satlecture2"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/frilecture2"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/satlecture1"
+                    android:layout_toRightOf="@+id/satlecture1">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/satlecture2subject2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/satlecture2status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/satlecture3"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/frilecture3"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/satlecture2"
+                    android:layout_toRightOf="@+id/satlecture2">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/satlecture3subject3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/satlecture3status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/satlecture4"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/frilecture4"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/satlecture3"
+                    android:layout_toRightOf="@+id/satlecture3">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/satlecture4subject4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/satlecture4status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/satlecture5"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/frilecture4"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/satlecture4"
+                    android:layout_toRightOf="@+id/satlecture4">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/satlecture5subject5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/satlecture5status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/satlecture6"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/frilecture5"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/satlecture5"
+                    android:layout_toRightOf="@+id/satlecture5">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/satlecture6subject6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/satlecture6status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/satlecture7"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/frilecture7"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/satlecture6"
+                    android:layout_toRightOf="@+id/satlecture6">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/satlecture7subject7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/satlecture7status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/satlecture8"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/frilecture8"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/satlecture7"
+                    android:layout_toRightOf="@+id/satlecture7">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/satlecture8subject8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <ToggleButton
+                            android:id="@+id/satlecture8status"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/colorPrimary"
+                            android:checked="true"
+                            android:text="ToggleButton"
+                            android:textColor="@android:color/white"
+                            android:textColorLink="@color/colorPrimaryDark"
+                            android:textOff="A"
+                            android:textOn="P"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/montserrat"/>
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+            </RelativeLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

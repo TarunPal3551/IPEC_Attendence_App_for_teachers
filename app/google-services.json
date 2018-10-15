@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "357219979302",
+    "firebase_url": "https://ipec-app-ec92a.firebaseio.com",
+    "project_id": "ipec-app-ec92a",
+    "storage_bucket": "ipec-app-ec92a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357219979302:android:68579b709debee59",
+        "android_client_info": {
+          "package_name": "appsforyou.tarun.com.ipecapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357219979302-34gd2b8gbjgg73gaaraj5jd562vqatku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "appsforyou.tarun.com.ipecapp",
+            "certificate_hash": "3d7ca359740030a72f24a4ff1eda1229e8e09e09"
+          }
+        },
+        {
+          "client_id": "357219979302-fa5k819ur06m15vk930apotebbabc8n0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMXQlzr-z3a3_C3_gs8QcgFlvG2bUkW5c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357219979302-fa5k819ur06m15vk930apotebbabc8n0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

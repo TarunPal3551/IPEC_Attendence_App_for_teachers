@@ -1,0 +1,3045 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity_Teacher">
+
+
+    <RelativeLayout
+        android:id="@+id/dayscollection"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:background="@android:color/darker_gray">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/monday"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@android:color/holo_blue_dark">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="14dp"
+                    android:text="Monday"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/tuesday"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/monday"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@android:color/holo_blue_dark">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="14dp"
+                    android:text="Tuesday"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/wednesday"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/tuesday"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@android:color/holo_blue_dark">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="14dp"
+                    android:text="Wednesday"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/thursday"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/wednesday"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@android:color/holo_blue_dark">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="14dp"
+                    android:text="Thursday"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/friday"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/thursday"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@android:color/holo_blue_dark">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="14dp"
+                    android:text="Friday"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/saturday"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/friday"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@android:color/holo_blue_dark">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="14dp"
+                    android:text="Saturday"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/rel1">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_orange_light"
+                android:orientation="horizontal"
+                >
+                <RelativeLayout
+                    android:layout_width="1000dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/period1"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp">
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/period2"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toEndOf="@+id/period1"
+                        android:layout_toRightOf="@+id/period1">
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/period3"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toEndOf="@+id/period2"
+                        android:layout_toRightOf="@+id/period2">
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/period4"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toEndOf="@+id/period3"
+                        android:layout_toRightOf="@+id/period3">
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/period5"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toEndOf="@+id/period4"
+                        android:layout_toRightOf="@+id/period4">
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/period6"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toEndOf="@+id/period5"
+                        android:layout_toRightOf="@+id/period5">
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/period7"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toEndOf="@+id/period6"
+                        android:layout_toRightOf="@+id/period6">
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/period8"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toEndOf="@+id/period8"
+                        android:layout_toRightOf="@+id/period8">
+
+                    </android.support.v7.widget.CardView>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="50dp">
+                    <android.support.v7.widget.CardView
+                    android:id="@+id/monlecture1"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/monlecture1subject1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/monlecture1year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/monlecture1subject1"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/monlecture1yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/monlecture1subject1"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/monlecture1year"
+                            android:layout_toRightOf="@+id/monlecture1year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/monlecture2"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/monlecture1"
+                    android:layout_toRightOf="@+id/monlecture1"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/monlecture2subject2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/monlecture2year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/monlecture2subject2"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/monlecture2yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/monlecture2subject2"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/monlecture2year"
+                            android:layout_toRightOf="@+id/monlecture2year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/monlecture3"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/monlecture2"
+                    android:layout_toRightOf="@+id/monlecture2"
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/monlecture3subject3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/monlecture3year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/monlecture3subject3"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/monlecture3yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/monlecture3subject3"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/monlecture3year"
+                            android:layout_toRightOf="@+id/monlecture3year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/monlecture4"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/monlecture3"
+                    android:layout_toRightOf="@+id/monlecture3"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/monlecture4subject4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/monlecture4year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/monlecture4subject4"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/monlecture4yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/monlecture4subject4"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/monlecture4year"
+                            android:layout_toRightOf="@+id/monlecture4year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/monlecture5"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/monlecture4"
+                    android:layout_toRightOf="@+id/monlecture4"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/monlecture5subject5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/monlecture5year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/monlecture5subject5"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/monlecture5yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/monlecture5subject5"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/monlecture5year"
+                            android:layout_toRightOf="@+id/monlecture5year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/monlecture6"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/monlecture5"
+                    android:layout_toRightOf="@+id/monlecture5"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/monlecture6subject6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/monlecture6year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/monlecture6subject6"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/monlecture6yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/monlecture6subject6"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/monlecture6year"
+                            android:layout_toRightOf="@+id/monlecture6year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/monlecture7"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/monlecture6"
+                    android:layout_toRightOf="@+id/monlecture6"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/monlecture7subject7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/monlecture7year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/monlecture7subject7"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/monlecture7yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/monlecture7subject7"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/monlecture7year"
+                            android:layout_toRightOf="@+id/monlecture7year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/monlecture8"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/monlecture7"
+                    android:layout_toRightOf="@+id/monlecture7"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/monlecture8subject8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/monlecture8year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/monlecture8subject8"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/monlecture8yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/monlecture8subject8"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/monlecture8year"
+                            android:layout_toRightOf="@+id/monlecture8year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/tuelecture1"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/monlecture1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/tuelecture1subject1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/tuelecture1year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tuelecture1subject1"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tuelecture1yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tuelecture1subject1"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/tuelecture1year"
+                            android:layout_toRightOf="@+id/tuelecture1year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/tuelecture2"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/monlecture2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/tuelecture1"
+                    android:layout_toRightOf="@+id/tuelecture1"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/tuelecture2subject2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/tuelecture2year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tuelecture2subject2"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tuelecture2yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tuelecture2subject2"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/tuelecture2year"
+                            android:layout_toRightOf="@+id/tuelecture2year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/tuelecture3"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/monlecture3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/tuelecture2"
+                    android:layout_toRightOf="@+id/tuelecture2"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/tuelecture3subject3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/tuelecture3year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tuelecture3subject3"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tuelecture3yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tuelecture3subject3"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/tuelecture3year"
+                            android:layout_toRightOf="@+id/tuelecture3year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/tuelecture4"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/monlecture4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/tuelecture3"
+                    android:layout_toRightOf="@+id/tuelecture3"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/tuelecture4subject4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/tuelecture4year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tuelecture4subject4"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tuelecture4yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tuelecture4subject4"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/tuelecture4year"
+                            android:layout_toRightOf="@+id/tuelecture4year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/tuelecture5"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/monlecture4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/tuelecture4"
+                    android:layout_toRightOf="@+id/tuelecture4"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/tuelecture5subject5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/tuelecture5year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tuelecture5subject5"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tuelecture5yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tuelecture5subject5"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/tuelecture5year"
+                            android:layout_toRightOf="@+id/tuelecture5year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/tuelecture6"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/monlecture5"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/tuelecture5"
+                    android:layout_toRightOf="@+id/tuelecture5"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/tuelecture6subject6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/tuelecture6year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tuelecture6subject6"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tuelecture6yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tuelecture6subject6"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/tuelecture6year"
+                            android:layout_toRightOf="@+id/tuelecture6year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/tuelecture7"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/monlecture7"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/tuelecture6"
+                    android:layout_toRightOf="@+id/tuelecture6"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/tuelecture7subject7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/tuelecture7year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tuelecture7subject7"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tuelecture7yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tuelecture7subject7"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/tuelecture7year"
+                            android:layout_toRightOf="@+id/tuelecture7year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/tuelecture8"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/monlecture8"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/tuelecture7"
+                    android:layout_toRightOf="@+id/tuelecture7"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/tuelecture8subject8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/tuelecture8year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tuelecture8subject8"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tuelecture8yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tuelecture8subject8"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/tuelecture8year"
+                            android:layout_toRightOf="@+id/tuelecture8year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/wedlecture1"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/tuelecture1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/wedlecture1subject1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/wedlecture1year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/wedlecture1subject1"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/wedlecture1yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/wedlecture1subject1"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/wedlecture1year"
+                            android:layout_toRightOf="@+id/wedlecture1year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/wedlecture2"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/tuelecture2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/wedlecture1"
+                    android:layout_toRightOf="@+id/wedlecture1"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/wedlecture2subject2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/wedlecture2year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/wedlecture2subject2"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/wedlecture2yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/wedlecture2subject2"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/wedlecture2year"
+                            android:layout_toRightOf="@+id/wedlecture2year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/wedlecture3"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/tuelecture3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/wedlecture2"
+                    android:layout_toRightOf="@+id/wedlecture2"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/wedlecture3subject3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/wedlecture3year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/wedlecture3subject3"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/wedlecture3yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/wedlecture3subject3"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/wedlecture3year"
+                            android:layout_toRightOf="@+id/wedlecture3year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/wedlecture4"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/tuelecture4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/wedlecture3"
+                    android:layout_toRightOf="@+id/wedlecture3"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/wedlecture4subject4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/wedlecture4year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/wedlecture4subject4"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/wedlecture4yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/wedlecture4subject4"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/wedlecture4year"
+                            android:layout_toRightOf="@+id/wedlecture4year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/wedlecture5"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/tuelecture4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/wedlecture4"
+                    android:layout_toRightOf="@+id/wedlecture4"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/wedlecture5subject5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/wedlecture5year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/wedlecture5subject5"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/wedlecture5yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/wedlecture5subject5"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/wedlecture5year"
+                            android:layout_toRightOf="@+id/wedlecture5year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/wedlecture6"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/tuelecture5"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/wedlecture5"
+                    android:layout_toRightOf="@+id/wedlecture5"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/wedlecture6subject6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/wedlecture6year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/wedlecture6subject6"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/wedlecture6yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/wedlecture6subject6"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/wedlecture6year"
+                            android:layout_toRightOf="@+id/wedlecture6year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/wedlecture7"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/tuelecture7"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/wedlecture6"
+                    android:layout_toRightOf="@+id/wedlecture6"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/wedlecture7subject7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/wedlecture7year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/wedlecture7subject7"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/wedlecture7yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/wedlecture7subject7"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/wedlecture7year"
+                            android:layout_toRightOf="@+id/wedlecture7year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/wedlecture8"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/tuelecture8"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/wedlecture7"
+                    android:layout_toRightOf="@+id/wedlecture7"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/wedlecture8subject8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/wedlecture8year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/wedlecture8subject8"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/wedlecture8yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/wedlecture8subject8"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/wedlecture8year"
+                            android:layout_toRightOf="@+id/wedlecture8year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/thulecture1"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/wedlecture1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/thulecture1subject1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/thulecture1year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/thulecture1subject1"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/thulecture1yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/thulecture1subject1"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/thulecture1year"
+                            android:layout_toRightOf="@+id/thulecture1year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/thulecture2"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/wedlecture2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/thulecture1"
+                    android:layout_toRightOf="@+id/thulecture1"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/thulecture2subject2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/thulecture2year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/thulecture2subject2"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/thulecture2yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/thulecture2subject2"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/thulecture2year"
+                            android:layout_toRightOf="@+id/thulecture2year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/thulecture3"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/wedlecture3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/thulecture2"
+                    android:layout_toRightOf="@+id/thulecture2"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/thulecture3subject3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/thulecture3year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/thulecture3subject3"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/thulecture3yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/thulecture3subject3"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/thulecture3year"
+                            android:layout_toRightOf="@+id/thulecture3year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/thulecture4"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/wedlecture4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/thulecture3"
+                    android:layout_toRightOf="@+id/thulecture3"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/thulecture4subject4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/thulecture4year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/thulecture4subject4"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/thulecture4yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/thulecture4subject4"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/thulecture4year"
+                            android:layout_toRightOf="@+id/thulecture4year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/thulecture5"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/wedlecture4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/thulecture4"
+                    android:layout_toRightOf="@+id/thulecture4"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/thulecture5subject5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/thulecture5year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/thulecture5subject5"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/thulecture5yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/thulecture5subject5"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/thulecture5year"
+                            android:layout_toRightOf="@+id/thulecture5year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/thulecture6"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/wedlecture5"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/thulecture5"
+                    android:layout_toRightOf="@+id/thulecture5"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/thulecture6subject6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/thulecture6year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/thulecture6subject6"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/thulecture6yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/thulecture6subject6"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/thulecture6year"
+                            android:layout_toRightOf="@+id/thulecture6year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/thulecture7"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/wedlecture7"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/thulecture6"
+                    android:layout_toRightOf="@+id/thulecture6"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/thulecture7subject7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/thulecture7year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/thulecture7subject7"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/thulecture7yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/thulecture7subject7"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/thulecture7year"
+                            android:layout_toRightOf="@+id/thulecture7year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/thulecture8"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/wedlecture8"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/thulecture7"
+                    android:layout_toRightOf="@+id/thulecture7"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/thulecture8subject8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/thulecture8year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/thulecture8subject8"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/thulecture8yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/thulecture8subject8"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/thulecture8year"
+                            android:layout_toRightOf="@+id/thulecture8year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/frilecture1"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/thulecture1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/frilecture1subject1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/frilecture1year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/frilecture1subject1"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/frilecture1yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/frilecture1subject1"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/frilecture1year"
+                            android:layout_toRightOf="@+id/frilecture1year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/frilecture2"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/thulecture2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/frilecture1"
+                    android:layout_toRightOf="@+id/frilecture1"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/frilecture2subject2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/frilecture2year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/frilecture2subject2"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/frilecture2yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/frilecture2subject2"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/frilecture2year"
+                            android:layout_toRightOf="@+id/frilecture2year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/frilecture3"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/thulecture3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/frilecture2"
+                    android:layout_toRightOf="@+id/frilecture2"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/frilecture3subject3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/frilecture3year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/frilecture3subject3"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/frilecture3yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/frilecture3subject3"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/frilecture3year"
+                            android:layout_toRightOf="@+id/frilecture3year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/frilecture4"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/thulecture4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/thulecture3"
+                    android:layout_toRightOf="@+id/thulecture3"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/frilecture4subject4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/frilecture4year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/frilecture4subject4"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/frilecture4yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/frilecture4subject4"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/frilecture4year"
+                            android:layout_toRightOf="@+id/frilecture4year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/frilecture5"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/thulecture4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/frilecture4"
+                    android:layout_toRightOf="@+id/frilecture4"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/frilecture5subject5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/frilecture5year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/frilecture5subject5"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/frilecture5yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/frilecture5subject5"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/frilecture5year"
+                            android:layout_toRightOf="@+id/frilecture5year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/frilecture6"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/thulecture5"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/frilecture5"
+                    android:layout_toRightOf="@+id/frilecture5"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/frilecture6subject6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/frilecture6year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/frilecture6subject6"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/frilecture6yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/frilecture6subject6"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/frilecture6year"
+                            android:layout_toRightOf="@+id/frilecture6year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/frilecture7"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/thulecture7"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/frilecture6"
+                    android:layout_toRightOf="@+id/frilecture6"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/frilecture7subject7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/frilecture7year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/frilecture7subject7"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/frilecture7yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/frilecture7subject7"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/frilecture7year"
+                            android:layout_toRightOf="@+id/frilecture7year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/frilecture8"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/thulecture8"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/frilecture7"
+                    android:layout_toRightOf="@+id/frilecture7"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/frilecture8subject8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/frilecture8year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/frilecture8subject8"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/frilecture8yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/frilecture8subject8"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/frilecture8year"
+                            android:layout_toRightOf="@+id/frilecture8year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/satlecture1"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/frilecture1"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/satlecture1subject1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/satlecture1year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/satlecture1subject1"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/satlecture1yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/satlecture1subject1"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/satlecture1year"
+                            android:layout_toRightOf="@+id/satlecture1year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/satlecture2"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/frilecture2"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/satlecture1"
+                    android:layout_toRightOf="@+id/satlecture1"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/satlecture2subject2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/satlecture2year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/satlecture2subject2"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/satlecture2yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/satlecture2subject2"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/satlecture2year"
+                            android:layout_toRightOf="@+id/satlecture2year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/satlecture3"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/frilecture3"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/satlecture2"
+                    android:layout_toRightOf="@+id/satlecture2"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/satlecture3subject3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/satlecture3year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/satlecture3subject3"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/satlecture3yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/satlecture3subject3"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/satlecture3year"
+                            android:layout_toRightOf="@+id/satlecture3year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/satlecture4"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/frilecture4"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/satlecture3"
+                    android:layout_toRightOf="@+id/satlecture3"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/satlecture4subject4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/satlecture4year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/satlecture4subject4"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/satlecture4yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/satlecture4subject4"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/satlecture4year"
+                            android:layout_toRightOf="@+id/satlecture4year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/satlecture5"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/frilecture4"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/satlecture4"
+                    android:layout_toRightOf="@+id/satlecture4"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/satlecture5subject5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/satlecture5year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/satlecture5subject5"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/satlecture5yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/satlecture5subject5"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/satlecture5year"
+                            android:layout_toRightOf="@+id/satlecture5year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/satlecture6"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/frilecture5"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/satlecture5"
+                    android:layout_toRightOf="@+id/satlecture5"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/satlecture6subject6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/satlecture6year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/satlecture6subject6"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/satlecture6yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/satlecture6subject6"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/satlecture6year"
+                            android:layout_toRightOf="@+id/satlecture6year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/satlecture7"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/frilecture7"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/satlecture6"
+                    android:layout_toRightOf="@+id/satlecture6"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/satlecture7subject7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/satlecture7year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/satlecture7subject7"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/satlecture7yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/satlecture7subject7"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/satlecture7year"
+                            android:layout_toRightOf="@+id/satlecture7year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/satlecture8"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/frilecture8"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/satlecture7"
+                    android:layout_toRightOf="@+id/satlecture7"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/satlecture8subject8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:text="Subject Name"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/montserrat" />
+
+                        <TextView
+                            android:id="@+id/satlecture8year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/satlecture8subject8"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="4dp"
+                            android:text="3rd yr"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/satlecture8yearsection"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/satlecture8subject8"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_toEndOf="@+id/satlecture8year"
+                            android:layout_toRightOf="@+id/satlecture8year"
+                            android:text="B"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+
+</RelativeLayout>
